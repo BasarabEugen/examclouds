@@ -16,7 +16,7 @@ public class Lesson3_1 {
     toDouble();
 
     }
-     static void toByte(){
+    private static void toByte(){
         byte b = 1;
         short s = 2;
         char ch = 3;
