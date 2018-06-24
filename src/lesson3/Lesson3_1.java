@@ -1,4 +1,4 @@
-package Lesson3;/*
+package lesson3;/*
  * Created by basar on 23.06.2018
  */
 
