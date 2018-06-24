@@ -19,7 +19,7 @@ public class Lesson4_1 {
         o = sc.nextInt();
         if ((Math.abs(n)) <= (Math.abs(m)) && (Math.abs(n)) <= (Math.abs(o))){
             System.out.println(Math.abs(n));
-            } else if ((Math.abs(m)) <= (Math.abs(n)) && (Math.abs(m)) <= (Math.abs(o))) {
+        } else if ((Math.abs(m)) <= (Math.abs(n)) && (Math.abs(m)) <= (Math.abs(o))) {
             System.out.println(Math.abs(m));
         } else {
             System.out.println(o);
