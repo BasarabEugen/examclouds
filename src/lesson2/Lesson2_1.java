@@ -3,7 +3,7 @@ package lesson2;
  * Created by basar on 23.06.2018
  */
 
-public class Lesson2 {
+public class Lesson2_1 {
         public static void main(String[] args) {
 //      single-line comment
 /*
