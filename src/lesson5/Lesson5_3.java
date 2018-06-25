@@ -5,8 +5,6 @@ package lesson5;/*
  * Используем конструкцию if-else-if.
  */
 
-import com.sun.xml.internal.ws.api.streaming.XMLStreamReaderFactory;
-
 public class Lesson5_3 {
     public static void main(String[] args) {
         int n = Integer.parseInt(args[0]);
