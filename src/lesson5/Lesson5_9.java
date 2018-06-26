@@ -9,20 +9,23 @@ n! = 1*2*...*n;​
  */
 
 import java.util.Scanner;
+import java.lang.*;
 
 public class Lesson5_9 {
 
      private static long factorial() {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter number: ");
-        long n = sc.nextInt();
-        long result = 1;
+//        Scanner sc = new Scanner(System.in);
+//        System.out.print("Enter number: ");
+//        long n = sc.nextInt();
+        int n = (int)(Math.random()*20);
+         System.out.print("The factorial from [" + n +"]");
+         long result = 1;
         for (long factor = 1; factor <= n; factor++) {
             result *= factor;
         }
         return result;
     }
     public static void main(String[] args) {
-        System.out.println("The factorial: " + factorial());
+        System.out.println(" = " + factorial());
     }
 }
