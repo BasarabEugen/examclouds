@@ -3,7 +3,7 @@ package lesson5;/*
  * Распечатать 5 символов в одну строку начиная с ‘h’. Используем цикл for
  */
 
-public class Lesson_5_7 {
+public class Lesson5_7 {
     public static void main(String[] args) {
     char h;
         for (int i = 104; i <= 108; i++) {
