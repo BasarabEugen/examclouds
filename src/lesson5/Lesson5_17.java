@@ -22,7 +22,7 @@ public class Lesson5_17 {
                 int k = m[0];
                 bulbeSortMin(m);
                 int h = m[0];
-                System.out.println("Max =>"  + k + "  |  "+ h +"<= Min");
+                System.out.println("Max =>"  + k + " | "+ h +"<= Min");
             }
         }
     private static void bulbeSortMin(int[] array) {
