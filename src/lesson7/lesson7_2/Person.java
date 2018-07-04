@@ -13,23 +13,23 @@ public class Person {
         talk();
     }
 
-    static void move() {
+    private static void move() {
         System.out.println("Такой-то  Person говорит");
 
     }
 
-    static void talk(){
+    private static void talk(){
         System.out.println("Такой-то  Person говорит");
     }
 
-    String fullName;
-    int age;
-    Person(String fullName, int age){
+    private String fullName = "NAME";
+    private int age = 33;
+    private Person(String fullName, int age){
     }
 
-    Person(){
+    private Person(){
     }
+
     Person p1 = new Person(fullName, age);
     Person p2 = new Person();
-
 }
