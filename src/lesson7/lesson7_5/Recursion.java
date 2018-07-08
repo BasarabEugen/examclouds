@@ -3,4 +3,11 @@ package lesson7.lesson7_5;/*
  */
 
 public class Recursion {
+
+    static void n(int A, int B){
+
+        if (A < B){
+            System.out.println(A + " < " + B);
+        }
+    }
 }
