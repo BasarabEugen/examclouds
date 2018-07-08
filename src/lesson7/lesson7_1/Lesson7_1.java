@@ -40,5 +40,4 @@ public class Lesson7_1 {
 
         myPhone1.sendMessage("152454751", "15458154547", "5145415415");
     }
-
 }
