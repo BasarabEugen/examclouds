@@ -2,7 +2,7 @@ package lesson9.lesson9_3;/*
  * Created by BASARAB EUGEN on 12.07.2018
  */
 
-public class Rectangle extends Shape{
+public class Rectangle extends Shape {
 
     double x1, x2, y1, y2;
 
@@ -40,7 +40,7 @@ public class Rectangle extends Shape{
 
     @Override
     void draw() {
-        System.out.println("draw rectangle" + getX1()+ " " + getX2() + " " + getY1() + " " + getY2());
+        System.out.println("draw rectangle" + getX1() + " " + getX2() + " " + getY1() + " " + getY2());
     }
 
 //    @Override

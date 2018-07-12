@@ -4,6 +4,7 @@ package lesson9.lesson9_3;/*
 
 public abstract class Shape {
 
-   abstract void draw();
-   String color;
+    abstract void draw();
+
+    String color;
 }
