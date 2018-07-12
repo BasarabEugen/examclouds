@@ -15,4 +15,12 @@ class Pear extends Fruit {
         double a = costPear * weight;
         System.out.println("Total cost pear : " + a);
     }
+
+    public double getCostPear() {
+        return costPear;
+    }
+
+    public double getWeight() {
+        return weight;
+    }
 }

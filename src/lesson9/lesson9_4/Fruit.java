@@ -4,8 +4,6 @@ package lesson9.lesson9_4;/*
 
 abstract class Fruit {
     double weight;
-
     public abstract void costTheFruit();
-
 
 }

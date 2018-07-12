@@ -15,4 +15,12 @@ class Apricot extends Fruit {
         double a = costApricot * weight;
         System.out.println("Total cost apricot : " + a);
     }
+
+    public double getCostApricot() {
+        return costApricot;
+    }
+
+    public double getWeight() {
+        return weight;
+    }
 }
