@@ -8,16 +8,24 @@ package lesson8.lesson8_4;/*
 
 import java.util.Arrays;
 
+import static lesson8.lesson8_4.Flower.cost;
+
+
 public class MainFlower {
 
     public static void main(String[] args) {
-        System.out.println();
+
+        Roses rose = new Roses("Russia", 20, 150);
+        Tulips tulips = new Tulips("Holland", 10, 50);
+        Сarnation carnation = new Сarnation("Ukraine", 15, 100);
+
+        Flower[] bouqet1 = {rose, tulips, carnation};
+
+        System.out.println("The price of bouqet1 = " + cost(bouqet1));
     }
 
-    Flower rose = new Roses("Russia", 20, 150);
-    Flower tulips = new Tulips("Holland", 10, 50);
-    Flower carnation = new Сarnation("Ukraine", 15, 100);
 
-    Flower[] bouqet = {rose, tulips, carnation};
+
+
 
 }

@@ -6,11 +6,13 @@ public class Flower {
     private String producingCountry;
     private int shelfLife;
     private double price;
+    private static int count;
 
     public Flower(String producingCountry, int shelfLife, double price) {
         this.producingCountry = producingCountry;
         this.shelfLife = shelfLife;
         this.price = price;
+        count++;
     }
 
     public String getProducingCountry() {
@@ -35,5 +37,14 @@ public class Flower {
 
     public void setPrice(double price) {
         this.price = price;
+    }
+
+    public static double cost(Flower... flowers){
+        double result = 0;
+        for (Flower f : flowers){
+            result = result + f.getPrice();
+        }
+        return result;
+
     }
 }
