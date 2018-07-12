@@ -9,4 +9,9 @@ public class Cat extends Animal {
         super(food, location);
         this.meows = meows;
     }
+
+    @Override
+    public String toString() {
+        return "Cat " + meows;
+    }
 }

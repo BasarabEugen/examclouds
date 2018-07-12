@@ -11,15 +11,15 @@ public class Animal {
         this.location = location;
     }
 
-    void makeNoise(){
-
+    static void makeNoise() {
+        System.out.println("to make noise");
     }
 
-    void eat(){
-
+    static void eat() {
+        System.out.println("eat");
     }
 
-    void sleep(){
-
+    static void sleep() {
+        System.out.println("sleap");
     }
 }
