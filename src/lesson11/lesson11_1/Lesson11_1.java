@@ -10,7 +10,7 @@ package lesson11.lesson11_1;/*
 public class Lesson11_1 {
     public static void main(String[] args) {
 
-        Double doubl = new Double(3.14);
+        Double doubl = 3.14;
 
         Double d1 = Double.valueOf("3.14");
         Double d2 = Double.parseDouble("3.14");
