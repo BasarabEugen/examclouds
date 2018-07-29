@@ -27,7 +27,7 @@ public class Person {
     private Person(String fullName, int age){
     }
 
-    private Person(){
+    public Person(){
     }
 
     Person p1 = new Person(fullName, age);
