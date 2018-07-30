@@ -1,0 +1,25 @@
+а) Создайте объекты класса Double, используя методы valueOf().
+б) Преобразовать значение типа String к типу double. Используем метод Double.parseDouble().
+в) Преобразовать объект класса Double ко всем примитивным типам.
+г) Вывести значение объекта Double на консоль.
+д) Преобразовать литерал типа double к строке: String d = Double.toString(3.14);
+(Задание с урока)
+
+Заполнить табличку - на пересечении указать x, если данный метод существует у соответствующего класса оболочки.
+ 	Boolean	Byte	Character	Double	Float	Integer	Long	Short	 isStatic?
+ byteValue
+ doubleValue
+ floatValue
+ intValue
+ longValue
+ shortValue
+ parseXxx
+ parseXxx with radix
+ valueOf with radix
+ toString
+ toString(primitive)
+ toString(primitive,radix)
+
+Оболочки типов - вопросы и задания
+
+Перегрузка с дополнительными факторами - вопросы и задания
