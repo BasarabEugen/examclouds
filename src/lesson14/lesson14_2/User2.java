@@ -8,7 +8,7 @@ public class User2 {
     private String login;
     private String password;
 
-    private User2(String login) {
+    User2(String login) {
         this.login = login;
     }
 
