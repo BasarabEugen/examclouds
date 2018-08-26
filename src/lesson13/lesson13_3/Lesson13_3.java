@@ -3,8 +3,9 @@ package lesson13.lesson13_3;/*
  * Напишите программу, выводящую на консоль всю метаинформацию о выбранном классе.
  */
 
-import sun.plugin.javascript.navig.Array;
 
+
+import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Lesson13_3 {

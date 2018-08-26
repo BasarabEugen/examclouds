@@ -4,7 +4,7 @@ package lesson5;/*
  * Используйте метод Integer.parseInt() для преобразования из String в int.
  */
 
-import com.sun.org.apache.xerces.internal.parsers.IntegratedParserConfiguration;
+//import com.sun.org.apache.xerces.internal.parsers.IntegratedParserConfiguration;
 
 public class Lesson5_1 {
     public static void main(String[] args) {
